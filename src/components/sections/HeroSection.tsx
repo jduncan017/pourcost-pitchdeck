@@ -15,7 +15,7 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
       }}
     >
       <div className="mx-auto max-w-7xl px-5">
-        <h1 className="animate-fade-in-up mx-auto mb-5 max-w-[960px] bg-gradient-to-r from-[#FF6B00] to-[#FFC300] bg-clip-text text-5xl font-bold text-transparent md:text-6xl">
+        <h1 className="animate-fade-in-up from-p1 to-p3 mx-auto mb-5 max-w-[960px] bg-gradient-to-br bg-clip-text text-5xl font-bold text-transparent md:text-6xl">
           The AI Co-Pilot for Modern Bar Management
         </h1>
         <p className="animate-fade-in-up animation-delay-200 mx-auto mb-8 max-w-[800px] text-xl text-[#bbc2ca]">

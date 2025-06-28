@@ -29,7 +29,7 @@ export function ContactSection() {
           <h2 className="mb-8 text-4xl font-bold text-[#F0F6FC] md:text-5xl">
             Let&apos;s Build the Future of Bar Management
           </h2>
-          <p className="mx-auto mb-10 max-w-3xl text-xl text-[#8B949E]">
+          <p className="mx-auto mb-10 max-w-[720px] text-xl text-[#8B949E]">
             We have the proven foundation, clear vision, and market insight.
             Let&apos;s partner to solve a multi-billion dollar problem and
             create exceptional returns.

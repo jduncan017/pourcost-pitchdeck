@@ -33,7 +33,7 @@ export function InvestmentAskSection() {
             <h2 className="mb-5 text-4xl font-bold text-[#F0F6FC] md:text-5xl">
               The Investment Opportunity
             </h2>
-            <p className="text-lg text-[#8B949E]">
+            <p className="mx-auto max-w-[720px] text-lg text-[#8B949E]">
               Join us in transforming the $9.17B restaurant tech market with a
               proven foundation and clear path to exceptional returns.
             </p>

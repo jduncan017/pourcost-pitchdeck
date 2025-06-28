@@ -82,7 +82,7 @@ export function ReturnsSection() {
               <h2 className="mb-5 text-4xl font-bold text-white md:text-6xl">
                 Exceptional Return Potential
               </h2>
-              <p className="mx-auto max-w-3xl text-xl text-[#8B949E]">
+              <p className="mx-auto max-w-[720px] text-xl text-[#8B949E]">
                 Return projections are based on our Year 3 revenue target of
                 $1.5M ARR and standard, defensible SaaS valuation multiples.
               </p>
