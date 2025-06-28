@@ -26,7 +26,7 @@ const timeline = [
 
 export function InvestmentAskSection() {
   return (
-    <section id="ask" className="relative py-24">
+    <section id="ask" className="relative px-20 py-24">
       <div className="mx-auto max-w-7xl px-5">
         <RevealOnScroll>
           <div className="mx-auto mb-16 max-w-4xl text-center">
@@ -46,9 +46,7 @@ export function InvestmentAskSection() {
               <div className="mb-3 bg-gradient-to-r from-[#FF6B00] to-[#FFC300] bg-clip-text text-6xl font-extrabold text-transparent md:text-8xl">
                 $40K
               </div>
-              <div className="mb-8 text-2xl text-[#8B949E]">
-                for 20% Equity
-              </div>
+              <div className="mb-8 text-2xl text-[#8B949E]">for 20% Equity</div>
               <p className="mb-8 text-lg text-[#F0F6FC]">
                 We&apos;re seeking seed investment to accelerate our MVP
                 development and execute our go-to-market strategy, building upon
@@ -56,17 +54,17 @@ export function InvestmentAskSection() {
               </p>
 
               <div className="my-8 flex flex-col items-center justify-center gap-8 lg:flex-row lg:justify-start">
-                <div className="text-center">
+                <div className="flex flex-col items-center text-center">
                   <div className="mb-4 flex h-32 w-32 items-center justify-center rounded-full bg-gradient-to-br from-[#4ecdc4] to-[#96c93d] text-lg font-bold text-white">
                     <div>
                       <div className="text-2xl">80%</div>
                       <div className="text-sm">Founder</div>
                     </div>
                   </div>
-                  <div className="font-bold">I Retain Control</div>
+                  <div className="font-bold">Founder Managed</div>
                 </div>
                 <div className="text-3xl font-bold text-[#8B949E]">+</div>
-                <div className="text-center">
+                <div className="flex flex-col items-center text-center">
                   <div className="mb-4 flex h-32 w-32 items-center justify-center rounded-full bg-gradient-to-br from-[#FF6B00] to-[#FFC300] text-lg font-bold text-white">
                     <div>
                       <div className="text-2xl">20%</div>
@@ -90,9 +88,7 @@ export function InvestmentAskSection() {
                     <div className="font-bold text-[#F0F6FC]">
                       Founder Salary (5 months)
                     </div>
-                    <div className="text-sm text-[#8B949E]">
-                      $4K/month living expenses
-                    </div>
+                    <div className="text-sm text-[#8B949E]">$4K/month</div>
                   </div>
                   <div className="font-bold text-[#FF6B00]">$20,000</div>
                 </div>
@@ -102,7 +98,7 @@ export function InvestmentAskSection() {
                       Marketing & Launch
                     </div>
                     <div className="text-sm text-[#8B949E]">
-                      Customer acquisition, conferences
+                      Customer acquisition & digital marketing costs
                     </div>
                   </div>
                   <div className="font-bold text-[#FF6B00]">$20,000</div>
