@@ -1,0 +1,11 @@
+export { Header } from "./Header";
+export { HeroSection } from "./HeroSection";
+export { ExecutiveSummary } from "./ExecutiveSummary";
+export { TheProblem } from "./TheProblem";
+export { FoundationSection } from "./FoundationSection";
+export { SolutionSection } from "./SolutionSection";
+export { MarketSection } from "./MarketSection";
+export { ReturnsSection } from "./ReturnsSection";
+export { InvestmentAskSection } from "./InvestmentAskSection";
+export { ContactSection } from "./ContactSection";
+export { Footer } from "./Footer";

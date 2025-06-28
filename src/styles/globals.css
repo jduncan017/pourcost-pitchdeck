@@ -1,6 +1,35 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+  --font-sans:
+    var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* Primary Colors (Orange/Brand) */
+  --color-p1: #ff6b00; /* Main brand orange */
+  --color-p2: #ffc300; /* Secondary orange/yellow */
+  --color-p3: #e99000; /* Darker orange variant */
+  --color-p4: #ff8533; /* Lighter orange variant */
+
+  /* Secondary Colors (Teal/Accent) */
+  --color-s1: #4ecdc4; /* Main teal */
+  --color-s2: #96c93d; /* Green accent */
+  --color-s3: #3db8b0; /* Darker teal */
+  --color-s4: #6dd8d0; /* Lighter teal */
+
+  /* Tertiary Colors (Gradients/Highlights) */
+  --color-t1: #1a1a1a; /* Dark gradient start */
+  --color-t2: #2d2d2d; /* Dark gradient end */
+  --color-t3: #1a1f26; /* Dark blue-gray */
+  --color-t4: #1c2128; /* Dark blue-gray variant */
+
+  /* Grays (Text & UI) */
+  --color-g1: #9c9c9c; /* Primary text (light) */
+  --color-g2: #6e6e6e; /* Secondary text (medium) */
+  --color-g3: #30363d; /* Borders */
+  --color-g4: #161b22; /* Card backgrounds */
+
+  /* Neutrals (Backgrounds) */
+  --color-n1: #ffffff; /* Main background */
+  --color-n2: #d7d7d7; /* Pure white */
 }
